@@ -1,0 +1,18 @@
+{"homepage": "https://12xghostking.github.io/knappy",
+  "name": "vite-project",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "devDependencies": {
+    "vite": "^2.9.2"
+  },
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
+}
